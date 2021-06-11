@@ -55,10 +55,10 @@
 - If the notified message is "Access to the path ... is denied." when you save the template,
   close your Unity and restart it as an administrator.
 
-## Preview
-- Script Template Editor.
+## Source
 
-![Script Template Editor](./Attachment/images/ScriptTemplateEditor.gif)
+- https://github.com/mogoson/MGS.ScriptTemplateToolkit.
 
 ------
+
 Copyright © 2021 Mogoson. All rights reserved.	mogoson@outlook.com

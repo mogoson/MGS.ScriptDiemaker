@@ -1,0 +1,29 @@
+﻿/*************************************************************************
+ *  Copyright (c) #COPYRIGHTYEAR# Mogoson. All rights reserved.
+ *------------------------------------------------------------------------
+ *  File         :  #SCRIPTNAME#.js
+ *  Description  :  Null.
+ *------------------------------------------------------------------------
+ *  Author       :  Mogoson
+ *  Version      :  0.1.0
+ *  Date         :  #CREATEDATE#
+ *  Description  :  Initial development version.
+ *************************************************************************/
+
+#pragma strict
+
+//@script AddComponentMenu ("")
+//@script RequireComponent()
+
+//@Tooltip("")
+//@SerializeField
+
+function Start()
+{
+
+}
+
+function Update()
+{
+
+}
