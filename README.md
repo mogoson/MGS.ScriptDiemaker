@@ -61,4 +61,4 @@
 ![Script Template Editor](./Attachment/images/ScriptTemplateEditor.gif)
 
 ------
-Copyright © 2021 Mogoson. All rights reserved.	mogoson@outlook.com
+Copyright © 2021 Mogoson.	mogoson@outlook.com
