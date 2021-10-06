@@ -5,12 +5,12 @@
  *  Description  :  Null.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
- *  Version      :  0.1.0
+ *  Version      :  1.0.0
  *  Date         :  #CREATEDATE#
  *  Description  :  Initial development version.
  *************************************************************************/
 
-Shader "Mogoson/#NAME#" {
+Shader "Custom/#NAME#" {
 	Properties {
 		_Color ("Color", Color) = (1,1,1,1)
 		_MainTex ("Albedo (RGB)", 2D) = "white" {}
