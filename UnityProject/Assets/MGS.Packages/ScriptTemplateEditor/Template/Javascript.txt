@@ -1,7 +1,7 @@
 ﻿/*************************************************************************
- *  Copyright (c) #COPYRIGHTYEAR# Mogoson. All rights reserved.
+ *  Copyright © #COPYRIGHTYEAR# Mogoson. All rights reserved.
  *------------------------------------------------------------------------
- *  File         :  #SCRIPTNAME#.cs
+ *  File         :  #SCRIPTNAME#.js
  *  Description  :  Null.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
@@ -10,23 +10,14 @@
  *  Description  :  Initial development version.
  *************************************************************************/
 
-using UnityEngine;
-using System.Collections;
+#pragma strict
 
-namespace Custom.Script
+function Start()
 {
-    public class #SCRIPTNAME# : MonoBehaviour
-    {
-        // Use this for initialization.
-        void Start()
-        {
 
-        }
+}
 
-        // Update is called once per frame.
-        void Update()
-        {
+function Update()
+{
 
-        }
-    }
 }

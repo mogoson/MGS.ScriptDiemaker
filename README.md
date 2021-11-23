@@ -1,7 +1,7 @@
-﻿# MGS.ScriptTemplateToolkit
+﻿# MGS.ScriptTemplateEditor
 
 ## Summary
-- Toolkit for Unity editor script templates. 
+- Editor for Unity script templates. 
 
 ## Environment
 
@@ -36,7 +36,7 @@
   date and replace the "#COPYRIGHTYEAR#" to current year.
 
 ### Template
-- Templates in the path "ScriptTemplateToolkit/Templates" provide reference to you to create
+- Templates in the path "ScriptTemplateEditor/Templates" provide reference to you to create
   your style script templates.
 - The format of copyright statement in the templates reference from the [U.S. Copyright Office](https://www.copyright.gov/).
 

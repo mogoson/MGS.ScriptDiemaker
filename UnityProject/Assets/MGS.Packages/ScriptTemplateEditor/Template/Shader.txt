@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright (c) #COPYRIGHTYEAR# Mogoson. All rights reserved.
+ *  Copyright © #COPYRIGHTYEAR# Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  #NAME#.shader
  *  Description  :  Null.
