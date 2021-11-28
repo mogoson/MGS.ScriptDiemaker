@@ -31,7 +31,7 @@ namespace MGS.ScriptTemplate.Editors
         #endregion
 
         #region Private Method
-        [MenuItem("Tool/Template Editor &T")]
+        [MenuItem("Tool/Script Template Editor &T")]
         private static void ShowEditor()
         {
             instance = GetWindow<ScriptTemplateEditor>("TemplateEditor");
