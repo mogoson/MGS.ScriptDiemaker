@@ -14,6 +14,10 @@
 - Unity 5.0 or above.
 - .Net Framework 3.5 or above.
 
+## Version
+
+- 1.0.0
+
 ## Demand
 - Quickly Edit/Save Unity editor script templates.
 - Auto insert file header comments into the new script.
