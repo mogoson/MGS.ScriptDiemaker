@@ -1,6 +1,6 @@
 [TOC]
 
-﻿# MGS.ScriptTemplateEditor
+# MGS.ScriptTemplateEditor
 
 ## Summary
 - Editor for Unity script templates. 
