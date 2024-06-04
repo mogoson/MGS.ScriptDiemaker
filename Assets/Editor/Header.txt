@@ -1,0 +1,11 @@
+﻿/*************************************************************************
+ *  Copyright (C) #COPYRIGHTYEAR# #COMPANYNAME#. All rights reserved.
+ *------------------------------------------------------------------------
+ *  File         :  #SCRIPTNAME#
+ *  Description  :  Null.
+ *------------------------------------------------------------------------
+ *  Author       :  #AUTHORNAME#
+ *  Version      :  1.0.0
+ *  Date         :  #CREATEDATE#
+ *  Description  :  Initial development version.
+ *************************************************************************/

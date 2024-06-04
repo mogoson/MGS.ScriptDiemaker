@@ -1,0 +1,7 @@
+{
+    "description": "Diemaker for Unity script header",
+    "displayName": "Script Diemaker",
+    "name": "com.mgs.scriptdiemaker",
+    "unity": "2019.4",
+    "version": "1.0.0"
+}
