@@ -21,46 +21,24 @@ namespace MGS.Script.Diemaker
 {
     public sealed class ScriptDiemaker : UnityEditor.AssetModificationProcessor
     {
+        public const string USER_COMPANY = "DIEMAKER_USER_COMPANY";
+        public const string USER_AUTHOR = "DIEMAKER_USER_AUTHOR";
+
         const string SCRIPT_EXTENSIONS = ".cs$|.js$|.boo$|.shader$|.compute$";
         const string META_EXTENSION = ".meta";
 
+        const string HEADER_NAME = "Header.txt";
         const string COPYRIGHT_YEAR = "#COPYRIGHTYEAR#";
         const string COMPANY_NAME = "#COMPANYNAME#";
         const string SCRIPT_NAME = "#SCRIPTNAME#";
         const string AUTHOR_NAME = "#AUTHORNAME#";
         const string CREATE_DATE = "#CREATEDATE#";
 
-        const string SETTINGS_NAME = "Settings.asset";
-        const string HEADER_NAME = "Header.txt";
-        static Settings settings;
-
-        static ScriptDiemaker()
-        {
-            var settingsPath = $"{ResolveEditorDir()}/{SETTINGS_NAME}";
-            settings = LoadSettings(settingsPath);
-            if (settings == null)
-            {
-                settings = CreateSettings(settingsPath);
-            }
-        }
-
         static string ResolveEditorDir()
         {
             var editorClass = $"{typeof(ScriptDiemaker).Name}.cs";
             var editorPath = AssetDatabase.GetAllAssetPaths().First(path => { return path.Contains(editorClass); });
             return editorPath.Replace(editorClass, string.Empty);
-        }
-
-        static Settings LoadSettings(string settingsPath)
-        {
-            return AssetDatabase.LoadAssetAtPath(settingsPath, typeof(Settings)) as Settings;
-        }
-
-        static Settings CreateSettings(string settingsPath)
-        {
-            var sts = ScriptableObject.CreateInstance<Settings>();
-            AssetDatabase.CreateAsset(sts, settingsPath);
-            return sts;
         }
 
         static void OnWillCreateAsset(string metaPath)
@@ -77,9 +55,9 @@ namespace MGS.Script.Diemaker
                         var header = File.ReadAllText(headerPath);
 
                         header = header.Replace(COPYRIGHT_YEAR, DateTime.Now.Year.ToString());
-                        header = header.Replace(COMPANY_NAME, settings.company);
+                        header = header.Replace(COMPANY_NAME, EditorPrefs.GetString(USER_COMPANY));
                         header = header.Replace(SCRIPT_NAME, Path.GetFileName(assetPath));
-                        header = header.Replace(AUTHOR_NAME, settings.author);
+                        header = header.Replace(AUTHOR_NAME, EditorPrefs.GetString(USER_AUTHOR));
                         header = header.Replace(CREATE_DATE, DateTime.Now.ToShortDateString());
 
                         File.WriteAllText(assetPath, $"{header}\r\n{content}");
@@ -91,14 +69,6 @@ namespace MGS.Script.Diemaker
                     Debug.LogError(e.Message);
                 }
             }
-        }
-
-        [MenuItem("Tool/Script Diemaker/Settings")]
-        static void ToolFocusSettings()
-        {
-            var settingsPath = $"{ResolveEditorDir()}/{SETTINGS_NAME}";
-            settings = LoadSettings(settingsPath);
-            Selection.activeObject = settings;
         }
     }
 }

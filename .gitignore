@@ -5,3 +5,5 @@
 /MGS.ScriptDiemaker.sln
 /.vsconfig
 /MGS.ScriptDiemaker.csproj
+/obj
+/.vs
