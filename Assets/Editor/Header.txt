@@ -2,7 +2,7 @@
  *  Copyright (C) #COPYRIGHTYEAR# #COMPANYNAME#. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  #SCRIPTNAME#
- *  Description  :  Null.
+ *  Description  :  Default.
  *------------------------------------------------------------------------
  *  Author       :  #AUTHORNAME#
  *  Version      :  1.0.0
