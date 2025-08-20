@@ -1,5 +1,5 @@
 ﻿/*************************************************************************
- *  Copyright (C) 2021 Mogoson. All rights reserved.
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  ScriptDiemaker.cs
  *  Description  :  Diemaker for script header.

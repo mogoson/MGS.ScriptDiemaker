@@ -1,8 +1,8 @@
-/*************************************************************************
- *  Copyright (C) 2024 Mogoson. All rights reserved.
+﻿/*************************************************************************
+ *  Copyright © 2025 Mogoson. All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  ScriptDiemakerEditor.cs
- *  Description  :  Null.
+ *  Description  :  Editor for script diemaker.
  *------------------------------------------------------------------------
  *  Author       :  Mogoson
  *  Version      :  1.0.0

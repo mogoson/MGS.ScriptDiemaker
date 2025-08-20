@@ -1,5 +1,5 @@
-﻿/*************************************************************************
- *  Copyright (C) #COPYRIGHTYEAR# #COMPANYNAME#. All rights reserved.
+/*************************************************************************
+ *  Copyright © #COPYRIGHTYEAR# #COMPANYNAME# All rights reserved.
  *------------------------------------------------------------------------
  *  File         :  #SCRIPTNAME#
  *  Description  :  Default.
