@@ -58,7 +58,7 @@ namespace MGS.Script.Diemaker
                         header = header.Replace(COMPANY_NAME, EditorPrefs.GetString(USER_COMPANY));
                         header = header.Replace(SCRIPT_NAME, Path.GetFileName(assetPath));
                         header = header.Replace(AUTHOR_NAME, EditorPrefs.GetString(USER_AUTHOR));
-                        header = header.Replace(CREATE_DATE, DateTime.Now.ToShortDateString());
+                        header = header.Replace(CREATE_DATE, DateTime.Now.ToString("MM/dd/yyyy"));
 
                         File.WriteAllText(assetPath, $"{header}\r\n{content}");
                         AssetDatabase.Refresh();
