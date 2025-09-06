@@ -1,7 +1,18 @@
 {
-    "description": "Diemaker for Unity script header",
-    "displayName": "Script Diemaker",
     "name": "com.mgs.scriptdiemaker",
+    "version": "1.0.0",
+    "displayName": "Script Diemaker",
+    "description": "Diemaker for Unity script header",
     "unity": "2021.3",
-    "version": "1.0.0"
+    "keywords": [
+        "Script",
+        "Diemaker",
+        "Header",
+        "Template"
+    ],
+    "author": {
+        "name": "Mogoson",
+        "email": "mogoson@outlook.com",
+        "url": "https://github.com/mogoson"
+    }
 }
