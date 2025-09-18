@@ -36,7 +36,7 @@ namespace MGS.Script.Diemaker
 
         static string ResolveEditorDir()
         {
-            var editorClass = $"{typeof(ScriptDiemaker).Name}.cs";
+            var editorClass = $"{nameof(ScriptDiemaker)}.cs";
             var editorPath = AssetDatabase.GetAllAssetPaths().First(path => { return path.Contains(editorClass); });
             return editorPath.Replace(editorClass, string.Empty);
         }
