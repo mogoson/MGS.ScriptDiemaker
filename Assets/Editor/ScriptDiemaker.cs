@@ -17,7 +17,7 @@ using System.Text.RegularExpressions;
 using UnityEditor;
 using UnityEngine;
 
-namespace MGS.Script.Diemaker
+namespace MGS.Script.Diemaker.Editors
 {
     public sealed class ScriptDiemaker : UnityEditor.AssetModificationProcessor
     {

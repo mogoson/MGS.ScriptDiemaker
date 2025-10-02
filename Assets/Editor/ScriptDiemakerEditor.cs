@@ -13,7 +13,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace MGS.Script.Diemaker
+namespace MGS.Script.Diemaker.Editors
 {
     public sealed class ScriptDiemakerEditor : ScriptableWizard
     {
